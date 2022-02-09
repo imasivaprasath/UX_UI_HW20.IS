@@ -1,0 +1,221 @@
+/* add your css styles here! */
+
+.container{
+   margin: 0 auto;
+   max-width: 1000px;
+   padding: 0px;
+}
+
+.fakeimg {
+   height: 200px;
+   background: #aaa;
+ }
+/* The navigation bar */
+.navbar {
+    background-color: #c4c4c4;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    max-width: 1000px;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .navbar a{
+      color: #000000;
+      padding: 10px;
+      font-family: Rozha One;   
+  }
+
+  .navbar-menu {
+      list-style-type: none;
+      margin:0;
+      padding:0;
+  }
+
+  .navbar-icon{
+    margin:0;
+    padding:0;
+  }
+
+  .mainsection {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #e9ecef;
+    display: block;
+    overflow: auto;
+ }
+
+ .mainsection-content{
+    position: relative;
+    margin-top: 100px;
+    width: fit-content;
+    block-size: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .aboutme-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #202020;
+    display: block;
+    overflow: auto;
+    width: 100%;
+    color: #FFFFFF;
+ }
+
+ .aboutme-content{
+   position: relative;
+   width: fit-content;
+   block-size: fit-content;
+   margin-left: 50px;
+   margin-right: auto;
+}
+ 
+ .thoughts-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #302f2f;
+    display: block;
+    overflow: auto;
+    width: 100%;
+    color: #FFFFFF;
+ }
+
+ .thoughts-content{
+   position: relative;
+   width: fit-content;
+   block-size: fit-content;
+   margin-left: 50px;
+   margin-right: auto;
+}
+
+.thoughts-subsection{
+   width: 30%;
+   margin-top: 30px;
+   float: left;
+   margin-right: 20px;
+   font-size: small;
+}
+
+.tools-section{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: #cecdcd;
+   display: block;
+   overflow: auto;
+   width: 100%;
+   color: #1f1e1e;
+}
+
+.tools-content{
+   position: relative;
+   width: fit-content;
+   block-size: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.projects-section{
+   position: relative;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: #000000;
+   display: block;
+   overflow: auto;
+   width: 100%;
+   color: #cccccc;
+}
+
+.projects-content{
+   position: relative;
+   width: 100%;
+   margin-right: auto;
+   margin-top: 20px;
+}
+
+.project-description {
+   position: relative;
+   float:left;
+   width: 30%;
+   margin-left: 50px;
+   margin-right: auto;
+}
+
+.projects-content img{
+  position: relative;
+  float:left;
+  margin-top: auto;
+  width: 50%;
+  height: 60%; 
+  object-fit:contain;
+  max-height: 500px;
+  margin-bottom: auto;
+  margin-left: 50px;
+}
+
+/* =================== curosel =========*/
+.mySlides {
+   display: none;
+ }
+
+/* Next & previous buttons */
+.prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ /* Position the "next button" to the right */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+
+ /* The dots/bullets/indicators */
+.dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+ 
+ .active, .dot:hover {
+   background-color: #717171;
+ }
+ 
+ /* Fading animation */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
